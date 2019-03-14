@@ -17,10 +17,6 @@ repositories {
     mavenCentral()
 }
 
-startScripts {
-    classpath += files('src/main/webapp/')
-}
-
 configurations {
     developmentOnly
     runtimeClasspath {
