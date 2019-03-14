@@ -11,7 +11,7 @@ class Controller {
     @GetMapping("/")
     fun blog(model: Model): String {
         model["title"] = "hello"
-        model["user"] = "tobi"
+        model["name"] = "tobi"
         return "index"
     }
 
